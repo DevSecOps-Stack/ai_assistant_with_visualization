@@ -1,3 +1,14 @@
 .env
 *.env
 .env.*
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build artifacts
+client/dist/
+client/tsconfig.tsbuildinfo
+
+# Vite cache
+client/node_modules/.vite/
